@@ -1,0 +1,17 @@
+.nav {
+    position: fixed;
+  }
+  
+  ul {
+    display: flex;
+    width: 980px;
+    li {
+      padding: 10px;
+      border: 2px solid #333333;
+      background-color: #ffffff;
+  
+      &.active {
+          background-color: #dddddd;
+      }
+    }
+  }

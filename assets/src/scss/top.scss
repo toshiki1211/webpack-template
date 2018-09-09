@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+/* reset
+------------------ */
+@import "../../../node_modules/resetcss/reset"; // sassの@importはcssに未対応のためmode_modules内のreset.cssを手動でscssに変換が必要
+
+
+/* top
+------------------ */
+@import "./layout/top";
